@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.authpage {
+      min-height: 100vh;
+      width: 100%;
+    display: flex;   
+    background-color: #e6e6e6;
+    }
+.authformbackground {  flex: 1; 
+      text-align: center;
+   
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+  background-color: #3f3d56;
+  /*  border-top-right-radius: 100em; */
+} 
+
+.authform {
+    margin: 4em;
+    width: 24em;
+    height: 23em ;
+    background: transparent;
+    box-shadow: -1px -1px 2px #353442c7,
+    1px 1px 2px #353442c7;
+ }
+
+
+.authbackground {
+    flex: 1; 
+  
+}
+.authbackground img {
+    
+     height: 100vh;
+     
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  
+}
+
+.authpic img { margin-top: -5em;
+        width: 10em;
+      border-radius: 50%;
+      border: solid 1px #4B4660;
+}
+
+.authbtnbox { 
+   display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    text-align: center;
+  background-color: #4B4660;
+    width: 10em;
+    height: 2em;
+    padding: 1em;
+    margin:  1em auto;
+    position: relative;
+    border-radius: 1.2em;
+}
+.togglebtn { z-index: 2;
+    margin: 0.4em;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 400;
+    color: #e6e6e6;
+}
+
+input[type='email'] , input[type='password'], input[type='name'] {
+    z-index: 5;
+    margin: 1.5em auto 0.5em;
+    width: 70%;
+    height: 2em;
+    outline: none;
+    border: none;
+    color: #e6e6e6;
+    border-bottom: 1px solid black;
+    background: transparent;
+} 
+.signupbtn {
+    left: 5em;
+}
+.loginbtn {
+    left: 0;
+}
+
+
+
+#authbtn {
+    position: absolute; 
+    width: 5em;
+    height: 2em;
+    border-radius: 1.2em;
+    transition: .5s;
+ background-color: #FF6584; 
+}
+
+.submitbtn { margin: 2em auto auto;
+    width: 7em;
+    height: 2em;
+    outline: none;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+   background-color: #FF6584; 
+   color: #e6e6e6;
+
+}
+
+#authicon { font-size: 0.9em;
+            vertical-align: middle;
+}
